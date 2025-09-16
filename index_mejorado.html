@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bicimotos YADEA - Jauja</title>
+  <style>
+    body { 
+      font-family: 'Segoe UI', Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background: #f9fafb; 
+      color: #333; 
+    }
+    header { 
+      background: linear-gradient(90deg, #1a73e8, #0f5adb); 
+      color: white; 
+      padding: 30px 20px; 
+      text-align: center; 
+    }
+    nav a { 
+      color: white; 
+      margin: 0 15px; 
+      text-decoration: none; 
+      font-weight: 600; 
+    }
+    section { 
+      padding: 50px 20px; 
+      max-width: 1100px; 
+      margin: auto; 
+    }
+    h2 { 
+      color: #0f5adb; 
+      margin-bottom: 20px; 
+    }
+    .catalogo { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+      gap: 25px; 
+    }
+    .producto { 
+      background: white; 
+      border-radius: 15px; 
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1); 
+      padding: 20px; 
+      text-align: center; 
+      transition: transform 0.2s; 
+    }
+    .producto:hover { 
+      transform: translateY(-5px); 
+    }
+    .producto img { 
+      width: 100%; 
+      border-radius: 10px; 
+    }
+    .btn { 
+      display: inline-block; 
+      background: #25d366; 
+      color: white; 
+      padding: 12px 20px; 
+      border-radius: 8px; 
+      text-decoration: none; 
+      font-weight: bold; 
+      margin-top: 12px; 
+      transition: background 0.2s; 
+    }
+    .btn:hover { 
+      background: #1ebd5a; 
+    }
+    footer { 
+      background: #111; 
+      color: #bbb; 
+      text-align: center; 
+      padding: 20px; 
+      margin-top: 40px; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bicimotos YADEA - Jauja</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>Estamos en la <strong>Plaza Principal de Jauja</strong>. Te ofrecemos <strong>bicimotos eléctricas YADEA</strong>: modernas, económicas y ecológicas. 🚲⚡</p>
+  </section>
+
+  <section id="catalogo">
+    <h2>Catálogo</h2>
+    <div class="catalogo">
+      <div class="producto">
+        <img src="https://via.placeholder.com/350x220?text=YADEA+A" alt="YADEA A">
+        <h3>YADEA Modelo A</h3>
+        <p>Precio: <strong>S/ 4,500</strong></p>
+        <a class="btn" href="https://wa.me/51987654321">Preguntar por WhatsApp</a>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/350x220?text=YADEA+B" alt="YADEA B">
+        <h3>YADEA Modelo B</h3>
+        <p>Precio: <strong>S/ 5,200</strong></p>
+        <a class="btn" href="https://wa.me/51987654321">Preguntar por WhatsApp</a>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/350x220?text=YADEA+C" alt="YADEA C">
+        <h3>YADEA Modelo C</h3>
+        <p>Precio: <strong>S/ 5,800</strong></p>
+        <a class="btn" href="https://wa.me/51987654321">Preguntar por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios">
+    <h2>Beneficios de elegir YADEA</h2>
+    <ul>
+      <li>✅ Ahorro en gasolina: carga eléctrica económica.</li>
+      <li>✅ Amigables con el medio ambiente.</li>
+      <li>✅ Tecnología internacional y garantía confiable.</li>
+      <li>✅ Perfectas para transporte urbano y delivery.</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Plaza Principal de Jauja, frente a la municipalidad.</p>
+    <p>📞 Teléfono: <a href="tel:+51987654321">+51 987 654 321</a></p>
+    <p>📱 WhatsApp: <a href="https://wa.me/51987654321">+51 987 654 321</a></p>
+    <p>🕒 Horario: Lunes a Sábado 9am - 7pm</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bicimotos YADEA - Jauja. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
